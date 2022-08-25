@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEATHER</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    
+    <div class="card">
+      <div class="search">
+        <input type="text" id="city" class="search-bar" placeholder="Enter the city" />
+        <button onclick="fetchData()" class="btn"> 
+         <img src="search.png" alt="search" width="20em" height="10em">
+        </button>
+      </div>
+      <div class="weather">
+        <h2 id="city-name" class='city'>Weather in INDIA</h2>
+        <div id="city-temp" class="temp">
+          51°F
+        </div>
+        <img src="" alt="" class="icon" />
+        <div id="city-weather" class="description">Cloudy</div>
+        <div id="city-humidity" class="humidity">Humidity : 45 %</div>
+        <div id="city-wind" class="wind">Wind Speed : 5 km/h</div>
+        <!-- <div id="city-temprature" class="wind">Temprature : 80</div> -->
+      </div>
+    </div>
+  </body>
+</html>

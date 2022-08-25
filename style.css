@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    background-image: url(" https://source.unsplash.com/1600x900/?landscapes");
+    font-size: 25px;
+
+}
+.card{
+    /* for transparent black color : #000000d0 */
+    background-color: #000000d0;
+    padding: 1.5em;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 20px;
+    margin:1em;
+    color: aliceblue;
+}
+.temp{
+    margin: 0%;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.btn{
+    border-radius: 50%;
+    margin-left: 5px ;
+    border: none;
+    background-color: #7c7c7c;
+    color: white;
+    height: 30px;
+    width: 40px;
+    transition:0.5s ease-in-out;
+
+
+}
+input.search-bar{
+    border-radius: 10px;
+    margin: 5px;
+    padding: 0.5em 1em;
+    font-family: inherit;
+    outline: none;
+    border: none;
+    background-color:#DCDCDC;
+    color: black;
+    width:60%;
+}
+input.placeholder{
+    color: black;
+}
+.btn:hover{
+background-color: #7c7c7c6b;
+}
